@@ -5,7 +5,7 @@ description: 少量自帳號爬取 YT/FB/IG/Threads 的整包工作流（含安�
 
 # Social Archive Kit（操作版）
 
-Repo：`C:\彥廷資料庫\social-archive-kit\`（公開 GitHub 版：Hao0321/social-archive-kit）
+Repo：`C:\彥廷資料庫\social-archive-kit\`（公開 GitHub 版：timzz1208/social-archive-kit）
 定位：輕量、個人帳號、少量低頻存檔。**不做大量爬取**。
 
 ## 平台速查
