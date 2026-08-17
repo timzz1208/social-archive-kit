@@ -72,6 +72,23 @@ social-archive-kit/
 - A real browser account (Chrome/Edge/Firefox) for cookie export
 - Windows / macOS / Linux (scripts are cross-platform; tested on Windows git-bash)
 
+## Credits / 致謝
+
+This kit is a thin wrapper and cookbook around battle-tested open-source tools. All credit goes to their authors; we only wrote the glue scripts and the docs (all pitfalls tested by us in real usage, 2026).
+
+本套件只是圍繞成熟開源工具的「薄包裝＋實戰食譜」。功勞屬於原作者們；我們只寫了膠水腳本與文件（所有坑都是我們 2026 年實測踩過的）。
+
+| Tool | Author | License | Used for |
+|---|---|---|---|
+| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | yt-dlp team | Unlicense | YT / FB / IG video download |
+| [gallery-dl](https://github.com/mikf/gallery-dl) | [mikf](https://github.com/mikf) | GPLv2 | IG image galleries |
+| [Playwright](https://github.com/microsoft/playwright) | Microsoft | Apache-2.0 | Threads rendering (no public API) |
+| [Get cookies.txt LOCALLY](https://github.com/kairi003/Get-cookies.txt-LOCALLY) | [kairi003](https://github.com/kairi003) | MIT | Safe cookie export |
+
+Our `scripts/` are original glue code (subprocess/Playwright wrappers, ~100 lines each); we did not copy code from the projects above. The docs are our own field notes.
+
+我們的 `scripts/` 是原創膠水碼（subprocess／Playwright 包裝，每支約百行）；沒有複製上述專案的程式碼。文件是我們自己的實戰筆記。
+
 ## License / 授權
 
 MIT © 2026 Hao0321 Studio. Cookbook-style documentation; scripts are minimal wrappers around `yt-dlp` / `playwright`.
