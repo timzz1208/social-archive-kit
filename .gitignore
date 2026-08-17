@@ -1,0 +1,18 @@
+# Cookies are account keys — never commit them
+cookies/
+*.cookies.txt
+*_cookies.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Playwright
+node_modules/
+
+# Output
+output/
+*.wav
+*.mp4
+*.webm
